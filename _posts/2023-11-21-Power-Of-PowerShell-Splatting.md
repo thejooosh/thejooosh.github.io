@@ -140,7 +140,7 @@ You can see this function only returns the two parameters we specified. Meaning,
 
 ## Splatting with ScriptBlocks
 In another example, we can show that you can add a ScriptBlock to a splat and then pass that to a function. See the example below.
-```Powershell
+```powershell
 $StartJobSplat = @{
     Name = 'Test Job'
     ScriptBlock = {
