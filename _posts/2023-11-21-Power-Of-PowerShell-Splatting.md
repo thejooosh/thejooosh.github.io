@@ -26,7 +26,7 @@ Get-ChildItem @GetChildItemSplat
 ```
 
 You can also splat using an array, here's an example from [Microsoft's Documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_splatting?view=powershell-7.4):
-```Powershell
+```powershell
 $ArrayArguments = "test.txt", "test2.txt"
 Copy-Item @ArrayArguments
 ```
